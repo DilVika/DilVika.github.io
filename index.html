@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .tieude1 {
+        float:left; margin-top: 200px; 
+        -webkit-transform: rotate(270deg);   
+          -moz-transform: rotate(270deg);
+          -ms-transform: rotate(270deg);
+          -o-transform: rotate(270deg);
+          transform: rotate(270deg);
+      }
+      .tieude2 {
+        float:right; margin-top: 200px;
+        -webkit-transform: rotate(90deg);   
+          -moz-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+      }
+    @media(max-width:750px){  
+      .tieude {
+        float: none;
+        margin-top: 0;
+        -webkit-transform: rotate(0);   
+          -moz-transform: rotate(0);
+          -ms-transform: rotate(0);
+          -o-transform: rotate(0);
+          transform: rotate(0);
+      }
+    }
+    </style>
+
+<style>
+    .item {
+      background-color: #353a40;
+      width: 300px;
+      height: 420px;
+      border-radius: 20px;
+      -webkit-box-shadow: -5px 7px 14px -2px rgba(114, 126, 140, 1);
+      -moz-box-shadow: -5px 7px 14px -2px rgba(114, 126, 140, 1);
+      box-shadow: -5px 7px 14px -2px rgba(114, 126, 140, 1);
+      margin: 20px;
+      position: relative;
+    }
+
+    .love-button {
+      position: absolute;
+      z-index: 3;
+      border-top-right-radius: 20px;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+      padding: 5px;
+      background-color: #575460;
+      border-radius: 10px;
+    }
+  </style>
+  </head>
+  <body style="background-color: #2C3137;">
+    <!-- navbar guest -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="#"
+        ><img src="/images/logo.png" alt="" width="120px" height="auto"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Đồ điện tử
+            </a>
+            <!-- xdsdsdssdds -->
+            <div
+              class="dropdown-menu bg-dark"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item bg-dark text-light" href="#"
+                >Điện thoại di động</a
+              >
+              <a class="dropdown-item bg-dark text-light" href="#"
+                >Máy tính xách tay</a
+              >
+              <a class="dropdown-item bg-dark text-light" href="#"
+                >Máy tính bảng</a
+              >
+              <a class="dropdown-item bg-dark text-light" href="#"
+                >Thiết bị thông minh</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Đồ gia dụng
+            </a>
+            <div
+              class="dropdown-menu bg-dark"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item bg-dark text-light" href="#">Tủ lạnh</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Máy giặt</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Máy lạnh</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Đồ văn phòng
+            </a>
+            <div
+              class="dropdown-menu bg-dark"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item bg-dark text-light" href="#">Máy móc</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Thiết bị</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Bất động sản
+            </a>
+            <div
+              class="dropdown-menu bg-dark"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item bg-dark text-light" href="#">Căn hộ</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Nhà ở</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Đất đai</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Văn phòng</a>
+              <a class="dropdown-item bg-dark text-light" href="#">Mặt bằng</a>
+            </div>
+          </li>
+        </ul>
+        <div class="d-flex flex-direction-row">
+          <a class="nav-link text-light hover" href="/pages/user/login.html">Login</a>
+          <a class="btn btn-warning  my-sm-0" href="/pages/user/signup.html">
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- searchbar -->
+    <div class="container-fluid">
+        <!-- SEARCH BAR -->
+        <div class="row" style="background: rgb(43, 49, 55);">
+          <div class="col-sm"></div>
+          <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+            <div class="search-header d-flex flex-column justify-content-center align-items-center" style="height: 230px;">
+              <p class="h4 mb-3 text-warning">Hàng nghìn sản phẩm đang chờ bạn!</p>
+              <!-- inputbox -->
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Tìm kiếm..." />
+                <div class="input-group-append">
+                  <button class="btn btn-warning" type="button">
+                    <img src="/icons/search.svg" height="20px" width="auto" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+    </div>
+
+    <div class=" container-fluid d-flex align-items-center justify-content-center" style="background-color: #353A40;">
+      <div class="display-4 text-light py-4 text-center">SÀN ĐẤU GIÁ LỚN NHẤT THẾ GIỚI</div>
+    </div>
+    <!-- body -->
+    <div class="container my-5">
+
+      <!-- Khung TOP 5 sản phẩm -->
+      <div class="top5-wrapper my-3">
+        <!-- Tiêu đề  -->
+        <div
+          class="tieude tieude1 text-light d-flex justify-content-center"
+        >
+          <h2 >
+            SẮP KẾT THÚC
+          </h2>
+        </div>
+
+        <!-- Slide sản phẩm -->
+        <div class="top5 d-flex justify-content-center p-2" id="wrapper">
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent px-3 py-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent px-3 py-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent px-3 py-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent px-3 py-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent px-3 py-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Khung TOP 5 sản phẩm -->
+      <div class="top5-wrapper my-5 py-3">
+        <!-- Tiêu đề  -->
+        <div
+          class="tieude tieude2 text-light d-flex justify-content-center"
+        >
+          <h2>
+            TOP XU HƯỚNG
+          </h2>
+        </div>
+
+        <!-- Slide sản phẩm -->
+        <div class="top5 d-flex justify-content-center p-2" id="wrapper">
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Khung TOP 5 sản phẩm -->
+      <div class="top5-wrapper my-3">
+        <!-- Tiêu đề  -->
+        <div
+          class="text-light d-flex justify-content-center"
+        >
+          <h2
+          >
+            TOP SIÊU PHẨM
+          </h2>
+        </div>
+
+        <!-- Slide sản phẩm -->
+        <div class="top5finally d-flex justify-content-center p-2" id="wrapper">
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+          <div>
+              <div class="item">
+                  <a href="/pages/detail-item.html" class="" style="text-decoration: none  ;">
+                    <img
+                      src="/images/jews.jpg"
+                      alt=""
+                      style="width: 300px;
+                                      height: 200px; 
+                                      border-top-left-radius: 20px;
+                                      border-top-right-radius: 20px;"
+                    />
+                    <div class="itemContent mx-3 my-2">
+                      <h3 class="" style="color: #bacbd8">
+                        Lô 6 người Do Thái
+                      </h3>
+            
+                      <span
+                        class="badge badge-warning d-flex justify-content-center align-items-center text-dark"
+                        style="width: 265px; height: 40px; font-size: 20px;"
+                      >
+                        180.000.000 VND
+                      </span>
+                      <span
+                        class="badge badge-danger px-3 py-1 mt-1"
+                        style="font-size: 16px; font-weight: 400;"
+                      >
+                        👉 TOP 1 : Lê Hồng Thái
+                      </span>
+                      <div
+                        class="detailInfo d-flex flex-direction-row justify-content-between"
+                        style="position:absolute;bottom: 10px;width: 265px; font-size: 12px;"
+                      >
+                        <div class="text-muted">
+                          <div class="">Ngày đăng</div>
+                          <span>12/12/2012</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Còn lại</div>
+                          <span>3 ngày</span>
+                        </div>
+                        <div class="text-muted">
+                          <div class="">Lượt đấu</div>
+                          <span>23 lượt</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+            
+                  <a href="###" class="love-button">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </a>
+                </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <footer class="section footer-classic bg-dark p-5" style="color: #8d9eac;">
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-4 col-xl-5">
+            <div class="pr-xl-4">
+              <a class="brand" href="/index.html"
+                ><img
+                  class="brand-logo-light"
+                  src="/images/logo.png"
+                  alt=""
+                  width="auto"
+                  height="37"
+              /></a>
+
+              <p>Chào mừng đến với chợ đen.</p>
+              <p class="rights">
+                <span>© </span><span class="copyright-year">2019 - </span
+                ><span> </span><span>Bản quyền thuộc về nhóm 2 (Web).</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5>Contacts</h5>
+            <dl class="contact-list">
+              <dt>Địa chỉ:</dt>
+              <dd>Đại học KHTN</dd>
+            </dl>
+            <dl class="contact-list">
+              <dt>email:</dt>
+              <dd>
+                <a href="#" style="color: #8d9eac;">blackmarket@gmail.com</a>
+              </dd>
+            </dl>
+          </div>
+          <div class="col-md-4 col-xl-3">
+            <h5>Về chợ đen</h5>
+            <ul style="list-style-type:none; padding-left: 0;">
+              <li><a href="#" style="color: #8d9eac;">Giới thiệu</a></li>
+              <li><a href="#" style="color: #8d9eac;">Liên hệ</a></li>
+              <li><a href="#" style="color: #8d9eac;">Tuyển dụng</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".top5").slick({
+          dot: true,
+          arrows: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+
+          centerMode: true,
+          responsive: [
+            {
+              breakpoint: 1900,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 1300,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: false
+              }
+            },
+            {
+              breakpoint: 1000,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: false
+              }
+            },
+            {
+              breakpoint: 750,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: true
+              }
+            }
+          ]
+        });
+      });
+      $(document).ready(function() {
+        $(".top5finally").slick({
+          dot: true,
+          arrows: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+
+          centerMode: true,
+          responsive: [
+            {
+              breakpoint: 1900,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true
+              }
+            },
+            {
+              breakpoint: 1000,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: false
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: true
+              }
+            }
+          ]
+        });
+      });
+    </script>
+    </script>
+  </body>
+</html>
